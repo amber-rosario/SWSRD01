@@ -40,7 +40,7 @@ pipeline {
  
         stage('POST-TO-DOCKERHUB') {    
             agent {
-                label 'appserver'
+                label 'amber-ubuntu-us-ord-appserver'
             }
             steps {
                 script {
