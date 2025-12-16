@@ -1,9 +1,9 @@
 version: "3.8"
 services: 
   r&dev1:
-    image: ambrsrio/r&dev1
+    image: ambrsrio/rdev1
     build: .
-    container_name: re&dev01
+    container_name: redev01
     restart: always
     ports: 
       - "90:90"
