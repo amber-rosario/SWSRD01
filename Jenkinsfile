@@ -9,6 +9,13 @@ pipeline {
     }
  
     stages {
+
+        stage('CLEAN-WORKSPACE') {
+            steps {
+                cleanWs(deleteDirs: true)
+            }
+        }
+
  
         stage('Cloning Git') {
             steps {
