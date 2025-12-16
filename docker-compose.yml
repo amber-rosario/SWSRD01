@@ -1,7 +1,7 @@
 version: "3.8"
 services: 
   r&dev1:
-    image: ambrsrio/rdev1
+    image: ambrsrio/rd1
     build: .
     container_name: redev01
     restart: always
